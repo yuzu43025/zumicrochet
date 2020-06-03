@@ -1,19 +1,113 @@
-body {
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
 }
-.container {
-  width:1170px;
-  padding:0 15px;
-  margin:0 auto;
-}
 
 .top-wrapper {
   padding:180px 0 100px 0;
-  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-image:url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true);
   color:white;
   background-size:cover;
+  text-align: center;
+}
+
+.container {
+  margin:0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.lesson-wrapper {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-bottom: 70px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  padding-top:70px;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img{
+  position: relative;
+  width: 386.1px;
+  height: 317.85px;
+}
+
+.lesson-icon p {
+  top: 44%;
+  width: 100%;
+  color: #5f5d60;
+
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+.message-wrapper {
+  padding-bottom: 50px 0 50px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.message-wrapper p {
+  opacity: 0.8;
+  display:inline-block;
+  padding-top: 50px;
+}
+footer {
+  border-top: 1px solid #eee;
+  float:right;
+}
+
+footer img {
+  height: 80px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  position:relative;
+  right:15px;
+}

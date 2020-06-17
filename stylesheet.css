@@ -17,16 +17,20 @@ a {
   text-decoration: none;
 }
 
+*{
+  box-sizing: border-box;
+}
 .top-wrapper {
-  padding:180px 0 100px 0;
+  padding: 180px 0 100px 0;
   background-image:url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true);
-  color:white;
-  background-size:cover;
+  color: white;
+  background-size: cover;
   text-align: center;
 }
 
 .container {
-  margin:0 auto;
+  margin: 0 auto;
+  width: 100%
 }
 
 .top-wrapper h1 {
@@ -42,10 +46,11 @@ a {
 }
 
 .lesson-wrapper {
-  height: 580px;
   background-color: #f7f7f7;
   text-align: center;
 }
+
+.clear {clear: left;}
 
 .heading {
   padding-bottom: 70px;
@@ -57,20 +62,21 @@ a {
   padding-top:70px;
 }
 
-.lesson {
-  float: left;
-  width: 33%;
-
+.flex-list {
+  display:flex;
+  width: 80%;
+  /* height:246.2px;*/
+  justify-content: space-between;
+margin:0 auto;
 }
-
-.lesson-icon {
-  position: relative;
+.lessons .lesson-icon img{
+  width:100%;
 }
-
-.lesson-icon img{
-  position: relative;
-  width: 386.1px;
-  height: 317.85px;
+.lesson-img {
+  padding: 0;
+}
+.item-body {
+  padding: 0;
 }
 
 .lesson-icon p {
@@ -82,7 +88,7 @@ a {
 .text-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 15px;
+  margin: 10px 0 15px 0;
   font-size: 13px;
   color: #b3aeb5;
 }
@@ -91,9 +97,10 @@ a {
   text-align: center;
   background-color: #f7f7f7;
 }
+
 .message-wrapper p {
   opacity: 0.8;
-  display:inline-block;
+  display:block;
   padding-top: 50px;
 }
 footer {
@@ -102,12 +109,61 @@ footer {
 }
 
 footer img {
-  height: 80px;
+  height: 60px;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
-  position:relative;
   right:15px;
+}
+
+@media (max-width:1000px){
+.flex-list {
+  width:80%;
+  display: flex;
+  margin:0 auto;
+  justify-content: space-between;
+}
+.message-wrapper p {
+  padding-top: 90px;
+}
+
+
+@media (max-width:670px){
+.flex-list {
+  width:100%;
+  flex-direction:column;
+  margin:0 auto;
+}
+.top-wrapper{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 30px 0;
+
+}
+.top-wrapper h1 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.top-wrapper p {
+  font-size: 10px;
+}
+.heading {
+  /*height:100px;*/
+  padding-bottom: 15px;
+}
+.heading h2 {
+  font-size:15px;
+}
+.heading p {
+  margin-bottom:30px;
+}
+.message-wrapper p {
+  padding-top: 20px;
+  font-size:12px;
+}
+footer img {
+  height: 50px;
+}
 }

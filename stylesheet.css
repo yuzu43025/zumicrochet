@@ -200,17 +200,12 @@ footer p {
 }
 .top-wrapper h1 {
   font-size: 25px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 .top-wrapper p {
   font-size: 11px;
   opacity: 0.9;
 }
-.faq {
-  padding: 0 10px 45px 10px;
-
-}
-
 .heading {
   /*height:100px;*/
   padding-bottom: 40px;
@@ -219,6 +214,16 @@ footer p {
   font-size:15px;
   padding-top:40px;
 }
+
+.faq {
+  padding: 0 10px 45px 10px;
+}
+
+.faq-heading h2 {
+  padding: 30px 0 30px 0;
+  font-size: 20px;
+}
+
 .heading p {
 }
 .text-contents {

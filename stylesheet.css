@@ -1,240 +1,249 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
-}
-
-body {
+ }
+ 
+ body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-}
-
-li {
+ }
+ 
+ li {
   list-style: none;
-}
-
-a {
+ }
+ 
+ a {
   text-decoration: none;
-}
-
-*{
+ }
+ 
+ * {
   box-sizing: border-box;
-}
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image:url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true);
+ }
+ 
+ .top-wrapper {
+  padding: 180px 0 150px 0;
+  background: url(https://github.com/yuzu43025/zumicrochet/blob/master/zumicrochet-top.jpeg?raw=true) 50% 50%;
   color: white;
   background-size: cover;
   text-align: center;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%
-}
-
-.top-wrapper h1 {
+ }
+ 
+ .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 15px;
-}
-
-.top-wrapper p {
+ }
+ 
+ .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 15px;
-}
-
-.lesson-wrapper {
+ }
+ 
+ .lesson-wrapper {
   background-color: #f7f7f7;
   text-align: center;
-}
-
-.clear {clear: left;}
-
-.faq {
+ }
+ 
+ .clear {
+  clear: left;
+ }
+ 
+ .faq {
   padding: 0 145px 70px 145px;
-}
-
-.faq-wrapper {
+ }
+ 
+ .faq-wrapper {
   margin: 0 auto;
-
-}
-
-.faq-heading h2{
+ }
+ 
+ .faq-heading h2 {
   padding: 50px 0 50px 0;
   text-align: center;
   color: #5f5d60;
-}
-
-.faq-list-item {
-  margin:10px;
-  border-bottom:1px solid #ccc;
-  position:relative;
-  cursor:pointer;
+ }
+ 
+ .faq-list-item {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
   text-align: left;
   color: #5f5d60;
-
-}
-
-.faq-list-item h3 {
+ }
+ 
+ .faq-list-item h3 {
   font-size: 14px;
-}
-
-.faq-list-item span {
-  position:absolute;
-  top:0;
-  right:5px;
+ }
+ 
+ .faq-list-item span {
+  position: absolute;
+  top: 0;
+  right: 5px;
   color: #b3aeb5;
-  font-size:13px;
-}
-
-.answer {
+  font-size: 13px;
+ }
+ 
+ .answer {
   font-size: 12px;
   padding: 5px 0px;
   margin-bottom: 15px;
-  display:none;
-
-}
-
-.heading {
+  display: none;
+ }
+ 
+ .heading {
   padding-bottom: 90px;
   color: #5f5d60;
-}
-
-.heading h2 {
+ }
+ 
+ .heading h2 {
   font-weight: normal;
-  padding-top:100px;
+  padding: 80px 0 0 0;
   text-align: center;
-}
-
-.flex-list {
-  display:flex;
+ }
+ 
+ .flex-list {
+  display: flex;
   width: 80%;
   /* height:246.2px;*/
   justify-content: space-between;
-margin:0 auto;
-}
-.lessons .lesson-icon img{
-  width:100%;
-}
-.lesson-img {
+  margin: 0 auto;
+ }
+ 
+ .lessons .lesson-icon img {
+  width: 100%;
+ }
+ 
+ .lesson-img {
   padding: 0;
-}
-.item-body {
+ }
+ 
+ .item-body {
   padding: 0;
-}
-
-.lesson-icon p {
+ }
+ 
+ .lesson-icon p {
   top: 44%;
   width: 100%;
   color: #5f5d60;
-
-}
-.text-contents {
+ }
+ 
+ .text-contents {
   width: 80%;
   display: inline-block;
   margin: 10px 0 15px 0;
   font-size: 13px;
   color: #b3aeb5;
-}
-/*.message-wrapper {
-  padding-bottom: 50px 0 50px 0;
-  text-align: center;
-  background-color: #f7f7f7;
-}
-
-.message-wrapper p {
-  opacity: 0.8;
-  display:block;
-  padding-top: 50px;
-}
-*/
-
-footer {
-  border-top: 1px solid #eee;
-  width:100%;
-}
-
-footer img {
-  height: 60px;
-  float:right;
-  position:relative;
-  right:30px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-  right:15px;
-  float:right;
-  position:relative;
-  top:60px;
-  left:40px;
-
-}
-
-@media (max-width:1000px){
-.flex-list {
-  width:80%;
-  display: flex;
-  margin:0 auto;
-  justify-content: space-between;
-}
-.message-wrapper p {
-  padding-top: 90px;
-}
-
-
-@media (max-width:670px){
-.flex-list {
-  width:100%;
-  flex-direction:column;
-  margin:0 auto;
-}
-.top-wrapper{
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 0 30px 0;
-
-}
-.top-wrapper h1 {
-  font-size: 25px;
-  letter-spacing: 1px;
-}
-.top-wrapper p {
-  font-size: 11px;
-  opacity: 0.9;
-}
-.heading {
-  /*height:100px;*/
-  padding-bottom: 40px;
-}
-.heading h2 {
-  font-size:15px;
-  padding-top:40px;
-}
-
-.faq {
-  padding: 0 10px 45px 10px;
-}
-
-.faq-heading h2 {
-  padding: 30px 0 30px 0;
-  font-size: 20px;
-}
-
-.heading p {
-}
-.text-contents {
-  color:   #5f5d60;
-  opacity: 0.8;
-}
-.message-wrapper p {
-  padding:30px 0 5px 0;
-  font-size:10px;
-}
-footer img {
-  height: 50px;
-}
-}
+ }
+ 
+ 
+ /*.message-wrapper {
+   padding-bottom: 50px 0 50px 0;
+   text-align: center;
+   background-color: #f7f7f7;
+ }
+ 
+ .message-wrapper p {
+   opacity: 0.8;
+   display:block;
+   padding-top: 50px;
+ }
+ */
+ 
+ @media (min-width:1000px) {
+  .container {
+   width: 1000px;
+   margin: 0 auto;
+  }
+  .flex-list {
+   width: 80%;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+  }
+  .message-wrapper p {
+   padding-top: 90px;
+  }
+  footer img {
+   height: 60px;
+   float: right;
+   position: relative;
+   right: 106px;
+  }
+  footer p {
+   color: #b3aeb5;
+   font-size: 12px;
+   right: 15px;
+   float: right;
+   position: relative;
+   top: 60px;
+   left: -31px;
+  }
+ }
+ 
+ @media (max-width:670px) {
+  .container {
+   width: 100%;
+   padding: 0 1.55rem;
+  }
+  .flex-list {
+   width: 100%;
+   flex-direction: column;
+   margin: 0 auto;
+  }
+  .top-wrapper {
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 75px 0;
+  }
+  .top-wrapper h1 {
+   font-size: 25px;
+   letter-spacing: 1px;
+  }
+  .top-wrapper p {
+   font-size: 11px;
+   opacity: 0.9;
+  }
+  .heading {
+   /*height:100px;*/
+   padding-bottom: 40px;
+  }
+  .heading h2 {
+   font-size: 15px;
+   padding-top: 40px;
+  }
+  .faq {
+   padding: 0 10px 45px 10px;
+  }
+  .faq-heading h2 {
+   padding: 30px 0 30px 0;
+   font-size: 20px;
+  }
+  .faq-list-item {
+   margin: 0;
+  }
+  .heading p {}
+  .text-contents {
+   color: #5f5d60;
+   opacity: 0.8;
+  }
+  .message-wrapper p {
+   padding: 30px 0 5px 0;
+   font-size: 10px;
+  }
+  footer img {
+   height: 42px;
+   float: right;
+   position: relative;
+   right: 12px;
+   bottom: 16px;
+  }
+  footer p {
+   color: #b3aeb5;
+   font-size: 10px;
+   right: 15px;
+   float: right;
+   position: relative;
+   top: 26px;
+   left: 44px;
+  }
+ }
